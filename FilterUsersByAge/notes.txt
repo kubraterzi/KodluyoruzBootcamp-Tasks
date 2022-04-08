@@ -1,0 +1,4 @@
+multiple users -> https://randomuser.me/api/?results=5000
+
+selected index -> var x = document.getElementById("mySelect").selectedIndex;
+

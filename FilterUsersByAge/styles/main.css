@@ -1,0 +1,85 @@
+.flex-3 {
+  flex: 3;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.title {
+  width: 100%;
+  padding: 3rem;
+  font-size: 3.5rem;
+  color: rgb(159, 12, 189);
+  text-align: center;
+}
+
+.user-list-container {
+  padding: 1rem;
+  visibility: visible;
+}
+
+.user-filtered-list-container{
+  padding: 1rem;
+  visibility: hidden;
+}
+
+.user-list-item {
+  padding: 0.7rem;
+  display: flex;
+}
+
+.list-item-property {
+  padding: 0.25rem;
+}
+
+.property-title-container {
+  display: flex;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(210, 150, 223);
+}
+
+.property-title {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: double;
+  text-align: start;
+}
+
+.select-age-range {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select {
+color: rgb(66, 64, 64);
+}
+
+.filter-button {
+    border-style: none;
+    padding: 0.55rem 3rem;
+    font-size: 1.25rem;
+    background-color: rgb(221, 190, 228);
+    letter-spacing: 1px;
+    color: rgb(61, 17, 71);
+}
+
+.filter-button:hover {
+    color: rgb(221, 190, 228);
+    background-color: rgb(61, 17, 71);
+    cursor: pointer;
+}

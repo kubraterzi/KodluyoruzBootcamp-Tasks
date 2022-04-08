@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <link rel="stylesheet" href="styles/global.css" type="text/css" />
+
+    <script src="index.js"></script>
+    <title>Filter Users By Gender</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="title">USERS</div> -->
+      <div class="select-age-range">
+        <!-- <select id="select-age-range" class="select-age-range">
+          <option selected="">Please Select Age Range</option>
+          <option>0-30</option>
+          <option>31-60</option>
+          <option>61-90</option>
+          <option>90 and later</option>
+        </select> -->
+        <label> Filter By Age Range : </label>
+        <div class="select">
+          <input type="radio" id="first-range" name="age-range" value="0-30" />
+          <label>0-30</label>
+        </div>
+        <div class="select">
+          <input type="radio" id="second-range" name="age-range" value="31-60" />
+          <label>31-60</label>
+        </div>
+        <div class="select">
+          <input type="radio" id="thirth-range" name="age-range" value="61-90" />
+          <label>61-90</label>
+        </div>
+        <div class="select">
+          <input type="radio" id="last-range" name="age-range" value="91" />
+          <label>90 and later</label>
+        </div>
+        <div>
+          <button class="filter-button" onclick="filterUsers()">Filter</button>
+        </div>
+      </div>
+      <div id="user-list" class="user-list-container">
+        <div class="property-title-container">
+          <div class="property-title flex-2">Name</div>
+          <div class="property-title flex-2">Last Name</div>
+          <div class="property-title flex-1">Age</div>
+          <div class="property-title flex-2">Phone</div>
+          <div class="property-title flex-2">E-mail</div>
+        </div>
+      </div>
+
+      <!-- <div id="filtered-user-list" class="user-filtered-list-container">
+        <div class="property-title-container">
+          <div class="property-title flex-2">Name</div>
+          <div class="property-title flex-2">Last Name</div>
+          <div class="property-title flex-1">Age</div>
+          <div class="property-title flex-2">Phone</div>
+          <div class="property-title flex-2">E-mail</div>
+        </div>
+      </div> -->
+
+    </div>
+  </body>
+</html>
