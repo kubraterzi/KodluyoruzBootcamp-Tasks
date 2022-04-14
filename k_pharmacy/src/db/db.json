@@ -1,0 +1,14 @@
+{
+    "medications" : [
+        {"name": "Albuterol HFA", "dose" : "2 puffs", "condition" : "Asthma", "quantity" : 90 },
+        {"name": "Asprin", "dose" : "81 mg", "condition" : "Neuropathic Pain", "quantity" : 80 },
+        {"name": "Beclomethasone HFA", "dose" : "2 puffs", "condition" : "Rheumatoid Arthritis", "quantity" : 45 },
+        {"name": "Carveditol", "dose" : "12.5 mg", "condition" : "Depression", "quantity" : 60 },
+        {"name": "Chlorthalidone", "dose" : "25 mg", "condition" : "Hypertansion", "quantity" : 70 },
+        {"name": "Insulin Glargine", "dose" : "28 u", "condition" : "Diabetes", "quantity" : 60 },
+        {"name": "Losartan", "dose" : "100 mg", "condition" : "Hypertansion", "quantity" : 35 },
+        {"name": "Omeprazole", "dose" : "40 mg", "condition" : "GERD", "quantity" : 80 },
+        {"name": "Prednisone", "dose" : "20 mg", "condition" : "High Cholestrol", "quantity" : 50 },
+        {"name": "Zolpidem", "dose" : "5 mg", "condition" : "Insomnia", "quantity" : 35 }
+    ]
+}
