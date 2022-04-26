@@ -33,7 +33,7 @@ function EditMedication(props) {
         Edit this Medication
       </Typography>
       <Typography id="modal-modal-description" component="h2" sx={{ mt: 2 }}>
-        <MedicationForm manipulatingType="edit" />
+        <MedicationForm manipulatingType="edit" medication={props.medication} />
       </Typography>
     </Box>
   </Modal>

@@ -19,7 +19,7 @@ function MedicationForm(props) {
     if (props.medication) {
       setMedication(props.medication);
     }
-  }, []);
+  }, [medication]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -59,7 +59,7 @@ function MedicationForm(props) {
             name="name"
             value={medication.name}
             onChange={handleChange}
-          />
+            />
         </Grid>
         <Grid item xs={6}>
           <TextField
